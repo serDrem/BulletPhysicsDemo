@@ -1,0 +1,11 @@
+Completeness:
+    All final project objectives fulfilled. 
+    Types of objects in the final composition:
+        Rigid boxes, a cylinder, and spheres
+        Two strings of spheres joined by hinged joints
+        
+Directions on how to run:
+    This is going to be roughly my final project submission, where I also had to include the tiff file library source and my TETMESH objects. Hence the large size.
+    The solution can be run from VS 2012 desktop express, on Debug Win32 settings.
+    Additional library directories as well as include directories will need to be updated manually to match your machine, I did not use the system variable method.
+    

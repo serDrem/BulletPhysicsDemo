@@ -1,0 +1,67 @@
+﻿Build started 5/13/2015 11:25:13 PM.
+     1>Project "C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Sergey\Documents\bullet3-master\src" /I"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\libtiff" /I"C:\Users\Sergey\Documents\bullet3-master\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BasicDemo.cpp BulletOpenGLApplication.cpp DebugDrawer.cpp main.cpp
+         BulletOpenGLApplication.cpp
+     1>c:\users\sergey\documents\bullet3-master\bullet_demo_rigidbody\bullet_demo_rigidbody\bulletopenglapplication.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\sergey\documents\bullet3-master\bullet_demo_rigidbody\bullet_demo_rigidbody\bulletopenglapplication.cpp(142): warning C4244: 'initializing' : conversion from 'unsigned long' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+         DebugDrawer.cpp
+         BasicDemo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Debug\Bullet_Demo_RigidBody.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\libtiff\x86\\" /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\libtiff\Debug\\" /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\libtiff" /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\bin" /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\lib" /LIBPATH:"C:\Users\Sergey\Documents\bullet3-master\freeglut\lib" BulletCollision_vs2010_debug.lib BulletDynamics_vs2010_debug.lib LinearMath_vs2010_debug.lib BulletSoftBody_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Debug\Bullet_Demo_RigidBody.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Debug\Bullet_Demo_RigidBody.lib" /MACHINE:X86 Debug\BasicDemo.obj
+         Debug\BulletOpenGLApplication.obj
+         Debug\DebugDrawer.obj
+         Debug\GameObject.obj
+         Debug\mkg3states.obj
+         Debug\tif_aux.obj
+         Debug\tif_close.obj
+         Debug\tif_codec.obj
+         Debug\tif_color.obj
+         Debug\tif_compress.obj
+         Debug\tif_dir.obj
+         Debug\tif_dirinfo.obj
+         Debug\tif_dirread.obj
+         Debug\tif_dirwrite.obj
+         Debug\tif_dumpmode.obj
+         Debug\tif_error.obj
+         Debug\tif_extension.obj
+         Debug\tif_fax3.obj
+         Debug\tif_fax3sm.obj
+         Debug\tif_flush.obj
+         Debug\tif_getimage.obj
+         Debug\tif_jbig.obj
+         Debug\tif_jpeg.obj
+         Debug\tif_jpeg_12.obj
+         Debug\tif_luv.obj
+         Debug\tif_lzma.obj
+         Debug\tif_lzw.obj
+         Debug\tif_next.obj
+         Debug\tif_ojpeg.obj
+         Debug\tif_open.obj
+         Debug\tif_packbits.obj
+         Debug\tif_pixarlog.obj
+         Debug\tif_predict.obj
+         Debug\tif_print.obj
+         Debug\tif_read.obj
+         Debug\tif_stream.obj
+         Debug\tif_strip.obj
+         Debug\tif_swab.obj
+         Debug\tif_thunder.obj
+         Debug\tif_tile.obj
+         Debug\tif_version.obj
+         Debug\tif_warning.obj
+         Debug\tif_win32.obj
+         Debug\tif_write.obj
+         Debug\tif_zip.obj
+         Debug\main.obj
+         Debug\main_bad_jack.obj
+         Debug\main_orig.obj
+         Bullet_Demo_RigidBody.vcxproj -> C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Debug\Bullet_Demo_RigidBody.exe
+     1>Done Building Project "C:\Users\Sergey\Documents\bullet3-master\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody\Bullet_Demo_RigidBody.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.20
